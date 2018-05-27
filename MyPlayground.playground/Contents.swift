@@ -57,7 +57,12 @@ let person = ["name": "David Guajardo", "city": "Santiago"]
 let name = person["dni"] ?? "Unknown"
 print(name)
 
-
+let favouritesSinger = ["Coldplay", "Madonna", "Bruno Mars", "Michael Jackson", "Coldplay"]
+var favouriteCounts = [String:Int]()
+for singer in favouritesSinger {
+    favouriteCounts[singer, default:0] += 1
+}
+print(favouriteCounts)
 
 
 
