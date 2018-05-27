@@ -9,10 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var titleImageView: UIImageView!
+    @IBOutlet weak var backgroundImageView: UIImageView!
+    @IBOutlet weak var pressButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.titleImageView.isHidden = true
+        self.backgroundImageView.isHidden = true
+        self.pressButton.isHidden = false
     }
 
     override func didReceiveMemoryWarning() {
