@@ -18,3 +18,14 @@ for c in testStr {
 for c in testStr.reversed() {
     print(c)
 }
+
+
+
+// Rangos unilaterales
+
+let food = ["Pizza", "Panacotta", "Spaguetti", "Lubina a la sal", "Mejillón tigre", "Ensalada César"]
+let italianFood = food[..<3]
+let fishFood = food[3...]
+let menu = food[1...3]
+
+
