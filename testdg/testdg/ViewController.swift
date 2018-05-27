@@ -27,6 +27,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        print("He pulsado un botón 🤪")
+        
+        self.titleImageView.isHidden = false
+        self.backgroundImageView.isHidden = false
+        self.pressButton.isHidden = true
+    }
+    
 
 }
 
