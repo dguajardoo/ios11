@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,40 +17,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="meadow-3375052_1280" translatesAutoresizingMaskIntoConstraints="NO" id="iHV-CT-SbQ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beach-1824855_1920" translatesAutoresizingMaskIntoConstraints="NO" id="uYj-fL-jdE">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vEl-DV-GH8">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l1r-GA-yYY">
                                 <rect key="frame" x="158" y="537" width="59" height="30"/>
-                                <state key="normal" title="Pulsame">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
+                                <state key="normal" title="Pulsame"/>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IOS-11" translatesAutoresizingMaskIntoConstraints="NO" id="Vbv-C0-ffN">
-                                <rect key="frame" x="139.5" y="40" width="95" height="33"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IOS-11" translatesAutoresizingMaskIntoConstraints="NO" id="egA-9m-2zb">
+                                <rect key="frame" x="44.5" y="40" width="285" height="99"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Vbv-C0-ffN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5dl-gf-QUR"/>
-                            <constraint firstItem="Vbv-C0-ffN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="PX0-uh-xtN"/>
-                            <constraint firstItem="iHV-CT-SbQ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Tf9-UN-EWk"/>
-                            <constraint firstItem="iHV-CT-SbQ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Ue2-uk-Nvh"/>
-                            <constraint firstItem="vEl-DV-GH8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YMA-sJ-43v"/>
-                            <constraint firstItem="iHV-CT-SbQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ZRk-r7-JMk"/>
-                            <constraint firstItem="iHV-CT-SbQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="i7B-WP-PpN"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vEl-DV-GH8" secondAttribute="bottom" constant="100" id="jIA-eu-5bv"/>
+                            <constraint firstItem="uYj-fL-jdE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4v4-F4-ooH"/>
+                            <constraint firstItem="uYj-fL-jdE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Nde-h2-a5H"/>
+                            <constraint firstItem="uYj-fL-jdE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="bTL-1F-Pbn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="l1r-GA-yYY" secondAttribute="bottom" constant="100" id="bXU-wL-cle"/>
+                            <constraint firstItem="egA-9m-2zb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fKT-hY-EMM"/>
+                            <constraint firstItem="uYj-fL-jdE" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="n1N-ce-xuu"/>
+                            <constraint firstItem="egA-9m-2zb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="ysP-Ml-EmD"/>
+                            <constraint firstItem="l1r-GA-yYY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zkU-MY-0kF"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="116" y="118.29085457271366"/>
+            <point key="canvasLocation" x="136.80000000000001" y="131.78410794602701"/>
         </scene>
     </scenes>
     <resources>
-        <image name="IOS-11" width="95" height="33"/>
-        <image name="meadow-3375052_1280" width="426" height="284"/>
+        <image name="IOS-11" width="285" height="99"/>
+        <image name="beach-1824855_1920" width="1920" height="768"/>
     </resources>
 </document>

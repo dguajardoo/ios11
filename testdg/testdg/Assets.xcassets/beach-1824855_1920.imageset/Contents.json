@@ -2,6 +2,7 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "beach-1824855_1920.jpg",
       "scale" : "1x"
     },
     {
@@ -10,7 +11,6 @@
     },
     {
       "idiom" : "universal",
-      "filename" : "meadow-3375052_1280.jpg",
       "scale" : "3x"
     }
   ],
