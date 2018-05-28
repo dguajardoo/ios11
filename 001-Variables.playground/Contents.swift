@@ -14,5 +14,17 @@ welcomeMessage = "Hola"
 var red, green, blue: Double
 
 let π = 3.14159265
-let ☠️ = "muerte"
+// let = "muerte"
+
+//------------------------------------------------------
+
+print(welcomeMessage, separator: "-", terminator: ".")
+print("Me acaban de saludar diciendo: \(welcomeMessage)")
+
+/*
+ Esto es un comentario
+ que ocupa varias lineas
+ de codigo en swift
+ */
+
 
