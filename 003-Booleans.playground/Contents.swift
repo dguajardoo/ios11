@@ -39,9 +39,55 @@ let http200Status = (statusCode: 200, description: "OK")
 print(http200Status.statusCode)
 print(http200Status.description)
 
+//Optionals
+let possibleNumber = "123"
+let convertedNumber = Int(possibleNumber) // No es un Int, es un Int?
+print(convertedNumber)
+
+var serverResponseCode: Int? = 404
+serverResponseCode = nil
+
+var answer: String?
+
+if serverResponseCode != nil {
+    print("El código del servidor no es nulo, si no que vale \(serverResponseCode)")
+}
+
+if let actualNumber = Int(possibleNumber) { // ActualNumber es un Int
+    print("Mi numweo actual es \(actualNumber)")
+} else {
+    print("\(possibleNumber) no contiene un número entero")
+}
 
 
+if let firstNumber = Int("4"),
+    let secondNumber = Int("53"),
+    firstNumber < secondNumber && secondNumber < 100 {
+    print ("\(firstNumber) < \(secondNumber) < 100")
+}
 
+if let firstNumber = Int("4"){
+    if let secondNumber = Int("53"){
+        if firstNumber < secondNumber && secondNumber < 100 {
+            print ("\(firstNumber) < \(secondNumber) < 100")
+        }
+    }
+}
+
+
+let possibleString: String? = "Esto es un string opcional"
+let forcedString: String = possibleString! //Solo hacer si la variable estáis seguros que no es nula.
+
+let assumedString: String! = "String ya con valor"
+let implicitString: String = assumedString //No necesito exclamacion, porque ya se seguro que existe
+
+if assumedString != nil {
+    print(assumedString)
+}
+
+if let definitiveString = assumedString {
+    print(assumedString)
+}
 
 
 
