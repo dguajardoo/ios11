@@ -40,3 +40,36 @@ do {
     // No hay Ingredientes
     buyIngredients()
 }
+
+
+// Aserciones y precondiciones
+let age = -8
+//assert(age >= 0, "Una persona no puede tener edad negativa")
+//assert(age >= 0)
+
+if age > 10 {
+    print("puedes")
+} else if age > 0 {
+    print("No puedes")
+} else {
+    assertionFailure("Una persona no puede tener edad negativa")
+}
+
+let index = -5
+precondition(index>=0, "Los índices deben ser mayores o iguales a cero! ")
+//preconditionFailure("<#T##message: String##String#>")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
